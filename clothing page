@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING FORM </title>
+</head>
+<body>
+    <form action="DEMO.XML" method="get">
+        <fieldset>
+            <Legend><h1>CASUAL CLOTHING</h1></Legend>
+            <label for="FIRST"> FIRST NAME</label><BR/>
+            <input type="text" id="FN" REQUIRED /><BR/>
+
+            <label for="FIRST"> LAST NAME</label><BR/>
+            <input type="text" id="LN" value="WNBRT"/><BR/>
+
+            <label for="PHONE">PHONE NUMBER</label><BR/>
+            <input type="number" id="NUM"/><BR/>
+
+            <label for="EMAIL">EMAIL</label><BR/>
+            <INPUT type="email" id="MAIL" required /><BR/>
+
+            <label for="DOB">DOB</label><BR/>
+            <INPUT type="date" id="DOB"/><BR/>
+
+            <label>GENDER </label><BR/>
+            <INPUT type="radio" name="FAV" value="M"/>
+            <label for="MALE">MALE</label><BR/>
+            <input type="radio"  name="FAV" value="FM"/>
+            <label for="FEMALE">FEMALE</label><BR/>
+
+            <label>ITEMS YOU PREFER</label><BR/>
+            
+            <label for="SHOES">SHOES </label><img src="OIP.jfif" alt="SHOES" height="100PX" width="100PX"><BR/>
+
+            <input type="checkbox" name="ITEMS BOX"/>
+            <BR/>
+            
+            <LABEL for="TS">T-SHIRTS </LABEL><img src="TSHIRT.jfif" alt="TSHIRTS" height="100PX" width="100PX"><br/>
+            
+            <input type="checkbox" name="ITEMBOX"/><BR/>
+
+            <label for="watches">WATCHES</label><img src="MUNITI-Men-Creative-Dial-Analog-Army-Military-Sport-Watches-Leather-Waterproof-Clock-Fashion-Male-Quartz-Watch.webp" alt="WATCHES" height="100PX" width="100PX"><BR/>
+
+            <input TYPE="checkbox" name="ITEMBOX"/><BR/>
+            
+            <label>PASSWORD</label><BR/>
+
+            <input type="password" name="PW" required/><BR/>
+
+           <label>SELECT A FILE</label><BR/>
+
+           <input type="file" multiple/><BR/>
+
+           <select SIZE="1">
+            <option>PANTS</option>
+            <option>SHIRTS</option>
+            <option>SHORTS</option>
+            </select>
+            <BR/>
+            
+
+        </fieldset>
+       
+    </form>
+</body>
+</html>
